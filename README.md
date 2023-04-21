@@ -9,11 +9,14 @@ Change the ip to your ip and port to whatever port you desire.
 
 **Step 2**
 
-Run server.
+```
+python3 server.py
+```
 
 **Step 3**
-
-Run client and reap tokens
+```
+./whateverthecompiledfileis
+```
 
 ## THIS IS PURELY FOR EDUCATIONAL PURPOSES ANY MALICIOUS USE HAS NOTHING TO DO WITH ME
 
