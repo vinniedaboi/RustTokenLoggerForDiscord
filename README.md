@@ -18,6 +18,4 @@ python3 server.py
 ./whateverthecompiledfileis
 ```
 
-## THIS IS PURELY FOR EDUCATIONAL PURPOSES ANY MALICIOUS USE HAS NOTHING TO DO WITH ME
-
-**I will be adding chrome support in the future also with other browsers**
+# CREDITS: vinniekorkor#7391
