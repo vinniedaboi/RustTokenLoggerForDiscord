@@ -1,7 +1,7 @@
 # RustTokenLoggerForDiscord
 This is a rust token logger for discord using basic client server protocol and regex.
 
-## WINDOWS ONLY (both server and client also take into count that it only works for people with the discord app)
+## WINDOWS ONLY (client side)
 
 **Step 1**
 
