@@ -5,7 +5,7 @@ This is a rust token logger for discord using basic client server protocol and r
 
 **Step 1**
 
-Change the ip to your ip and port to whatever port you desire.
+Change the basic config in the main.rs file
 
 **Step 2**
 
